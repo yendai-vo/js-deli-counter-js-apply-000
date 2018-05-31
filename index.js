@@ -24,7 +24,11 @@ function currentLine(katzDeliLine) {
     for (i=0; i < katzDeliLine.length; i++) {
       lineString = `${lineString}${(i+1)}. ${katzDeliLine[i]}, `;
     }
+<<<<<<< HEAD
     lineString = lineString.substring(0, lineString.length -2);
+=======
+    lineString = lineString.slice(0, lineString.length -2);
+>>>>>>> e863fb5b0bcb24261e9702f6da3d26b4ea04a2bd
     return lineString;
   }
 }
